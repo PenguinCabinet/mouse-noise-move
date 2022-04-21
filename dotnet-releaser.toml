@@ -1,0 +1,6 @@
+# configuration file for dotnet-releaser
+[msbuild]
+project = "mouse noise move.csproj"
+[github]
+user = "PenguinCabinet"
+repo = "mouse-noise-move"
