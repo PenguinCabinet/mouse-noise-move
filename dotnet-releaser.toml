@@ -4,3 +4,6 @@ project = "mouse_noise_move.csproj"
 [github]
 user = "PenguinCabinet"
 repo = "mouse-noise-move"
+[[pack]]
+rid = ["win-x64"]
+kinds = ["zip"]
