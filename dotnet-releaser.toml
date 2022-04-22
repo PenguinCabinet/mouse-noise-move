@@ -6,8 +6,8 @@ user = "PenguinCabinet"
 repo = "mouse-noise-move"
 [[pack]]
 publish = false
-rid = ["win-x64"]
-kinds = ["zip"]
+rid = ["osx-arm64","osx-x64"]
+kinds = []
 [msbuild.properties]
 IncludeAllContentForSelfExtract=false
 PublishSingleFile=false
