@@ -1,3 +1,5 @@
+![img1](./explanation/img1.gif)
+
 # MOUSE NOISE MOVE
 
 これは自動でマウスをランダムに動かすソフトウェアです
