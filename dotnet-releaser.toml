@@ -9,8 +9,8 @@ publish = true
 rid = ["osx-arm64","osx-x64"]
 kinds = []
 [msbuild.properties]
-IncludeAllContentForSelfExtract=false
-PublishSingleFile=true
+IncludeAllContentForSelfExtract=true
+PublishSingleFile=false
 [nuget]
 publish = false
 [brew]
