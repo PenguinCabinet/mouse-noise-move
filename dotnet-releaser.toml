@@ -5,10 +5,9 @@ project = "mouse_noise_move.csproj"
 user = "PenguinCabinet"
 repo = "mouse-noise-move"
 [[pack]]
-profile = "custom"
 publish = false
-rid = ["osx-arm64","osx-x64"]
-kinds = ["tar"]
+rid = ["win-x64"]
+kinds = ["zip"]
 [msbuild.properties]
 IncludeAllContentForSelfExtract=false
 PublishSingleFile=false
