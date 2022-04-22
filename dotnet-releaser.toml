@@ -11,3 +11,5 @@ kinds = []
 [msbuild.properties]
 IncludeAllContentForSelfExtract=false
 PublishSingleFile=false
+[nuget]
+publish = false
