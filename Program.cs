@@ -58,13 +58,14 @@ namespace mouse_noise_move
             var rand=new Random();
             ThreadPool.QueueUserWorkItem(new WaitCallback(End_program), null);
 
+            Console.Write($"マウスを動かしています...\nqキー入力で終了\n");
+
             while(true){
                 var pt = NativeMethods.Get_Cursor_Position();
 
                 var n_x=Get_gauss_random(0,30,rand);
                 var n_y=Get_gauss_random(0,30,rand);
 
-                Console.WriteLine($"x:{pt.X} y:{pt.Y}");
                 NativeMethods.SetCursorPos((int)Math.Round(pt.X+n_x),(int)Math.Round(pt.Y+n_y));
             }
         }
