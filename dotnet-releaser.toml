@@ -8,4 +8,5 @@ repo = "mouse-noise-move"
 rid = ["win-x64"]
 kinds = ["zip"]
 [msbuild.properties]
-IncludeAllContentForSelfExtract=true
+IncludeAllContentForSelfExtract=false
+PublishSingleFile=false
