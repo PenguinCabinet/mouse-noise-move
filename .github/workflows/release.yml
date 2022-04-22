@@ -16,7 +16,7 @@ jobs:
       - name: DotNet Version
         shell: bash
         run: |
-          dotnet version
+          dotnet --version
       - name: Build, Tests, Cover, Pack and Publish (on push tag)
         shell: bash
         run: |
