@@ -4,7 +4,7 @@
 
 # ダウンロード
 
-<a herf="https://github.com/PenguinCabinet/mouse-noise-move/releases/download/1.0.0/mouse_noise_move.1.0.0.win-x64.zip">ダウンロード(Windows)</a>
+[ダウンロード(Windows)](https://github.com/PenguinCabinet/mouse-noise-move/releases/download/1.0.0/mouse_noise_move.1.0.0.win-x64.zip)
 
 # 使い方
 起動するとマウスがランダムに動きます  
