@@ -13,3 +13,5 @@ IncludeAllContentForSelfExtract=false
 PublishSingleFile=false
 [nuget]
 publish = false
+[brew]
+publish = false
