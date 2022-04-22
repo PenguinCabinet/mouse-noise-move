@@ -5,6 +5,7 @@ project = "mouse_noise_move.csproj"
 user = "PenguinCabinet"
 repo = "mouse-noise-move"
 [[pack]]
+profile = "custom"
 publish = false
 rid = ["osx-arm64","osx-x64"]
 kinds = ["tar"]
